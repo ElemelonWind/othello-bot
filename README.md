@@ -2,10 +2,10 @@
 othello strategy board game for two players, played on an 8×8 uncheckered board. 
 
 ## algorithms
-`RandomBot` moves randomly by computing a list of valid moves and choosing one.
-`Minimax AI` uses the basic minimax algorithm with limited depth, looking 4 moves ahead.
-`Alphabeta AI` uses the alphabeta algorithm, which introduces pruning to the minimax game tree. it is able to look 5 moves ahead due to this optimization.
-`Best AI` uses alphabeta again, and also implements a better evaluation method. 
+`RandomBot` moves randomly by computing a list of valid moves and choosing one. <br>
+`Minimax AI` uses the basic minimax algorithm with limited depth, looking 4 moves ahead. <br>
+`Alphabeta AI` uses the alphabeta algorithm, which introduces pruning to the minimax game tree. it is able to look 5 moves ahead due to this optimization. <br>
+`Best AI` uses alphabeta again, and also implements a better evaluation method. <br>
 
 ## heuristic 
 i used the heuristic introduced by yunpeng li and dobo radichkov from cornell university. the evaluation function returns an integer specifying the attractiveness of a potential move. the greater the number, the more attractive a given move is. the number returned is evaluated through three components: disc count, legal moves count, and corner squares. 
